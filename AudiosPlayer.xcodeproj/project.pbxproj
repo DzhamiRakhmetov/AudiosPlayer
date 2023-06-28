@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		EC5CC87D2A49A457009D796D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC87C2A49A457009D796D /* AppDelegate.swift */; };
 		EC5CC87F2A49A457009D796D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC87E2A49A457009D796D /* SceneDelegate.swift */; };
-		EC5CC8812A49A457009D796D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC8802A49A457009D796D /* ViewController.swift */; };
+		EC5CC8812A49A457009D796D /* SongsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC8802A49A457009D796D /* SongsController.swift */; };
 		EC5CC8842A49A457009D796D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8822A49A457009D796D /* Main.storyboard */; };
 		EC5CC8862A49A458009D796D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8852A49A458009D796D /* Assets.xcassets */; };
 		EC5CC8892A49A458009D796D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8872A49A458009D796D /* LaunchScreen.storyboard */; };
+		EC5CC8962A49A7ED009D796D /* Linkin Park - What I've Done.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8912A49A7EC009D796D /* Linkin Park - What I've Done.mp3 */; };
+		EC5CC8972A49A7ED009D796D /* Ed Sheeran feat. Stormzy - Take Me Back to London (feat. Stormzy).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8922A49A7ED009D796D /* Ed Sheeran feat. Stormzy - Take Me Back to London (feat. Stormzy).mp3 */; };
+		EC5CC8982A49A7ED009D796D /* The Weeknd - Is There Someone Else.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8932A49A7ED009D796D /* The Weeknd - Is There Someone Else.mp3 */; };
+		EC5CC8992A49A7ED009D796D /* Imagine Dragons - Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8942A49A7ED009D796D /* Imagine Dragons - Thunder.mp3 */; };
+		EC5CC89A2A49A7ED009D796D /* Red Hot Chili Peppers - Dani California.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8952A49A7ED009D796D /* Red Hot Chili Peppers - Dani California.mp3 */; };
+		EC5CC89C2A49AA66009D796D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC89B2A49AA66009D796D /* Song.swift */; };
+		EC5CC89F2A49AC5A009D796D /* SongsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC89E2A49AC5A009D796D /* SongsProvider.swift */; };
+		EC5CC8A72A49B671009D796D /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC8A52A49B671009D796D /* SongCell.swift */; };
+		EC5CC8A82A49B671009D796D /* SongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5CC8A62A49B671009D796D /* SongCell.xib */; };
+		EC5CC8AA2A49D769009D796D /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CC8A92A49D769009D796D /* PlayerController.swift */; };
+		EC86BF3E2A4C5BB5006BE9C0 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86BF3D2A4C5BB5006BE9C0 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC5CC8792A49A457009D796D /* AudiosPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiosPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CC87C2A49A457009D796D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC5CC87E2A49A457009D796D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC5CC8802A49A457009D796D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5CC8802A49A457009D796D /* SongsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsController.swift; sourceTree = "<group>"; };
 		EC5CC8832A49A457009D796D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5CC8852A49A458009D796D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5CC8882A49A458009D796D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5CC88A2A49A458009D796D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5CC8912A49A7EC009D796D /* Linkin Park - What I've Done.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Linkin Park - What I've Done.mp3"; sourceTree = "<group>"; };
+		EC5CC8922A49A7ED009D796D /* Ed Sheeran feat. Stormzy - Take Me Back to London (feat. Stormzy).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ed Sheeran feat. Stormzy - Take Me Back to London (feat. Stormzy).mp3"; sourceTree = "<group>"; };
+		EC5CC8932A49A7ED009D796D /* The Weeknd - Is There Someone Else.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd - Is There Someone Else.mp3"; sourceTree = "<group>"; };
+		EC5CC8942A49A7ED009D796D /* Imagine Dragons - Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Imagine Dragons - Thunder.mp3"; sourceTree = "<group>"; };
+		EC5CC8952A49A7ED009D796D /* Red Hot Chili Peppers - Dani California.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Red Hot Chili Peppers - Dani California.mp3"; sourceTree = "<group>"; };
+		EC5CC89B2A49AA66009D796D /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		EC5CC89E2A49AC5A009D796D /* SongsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsProvider.swift; sourceTree = "<group>"; };
+		EC5CC8A52A49B671009D796D /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		EC5CC8A62A49B671009D796D /* SongCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongCell.xib; sourceTree = "<group>"; };
+		EC5CC8A92A49D769009D796D /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		EC86BF3D2A4C5BB5006BE9C0 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		EC5CC87B2A49A457009D796D /* AudiosPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				EC5CC87C2A49A457009D796D /* AppDelegate.swift */,
-				EC5CC87E2A49A457009D796D /* SceneDelegate.swift */,
-				EC5CC8802A49A457009D796D /* ViewController.swift */,
-				EC5CC8822A49A457009D796D /* Main.storyboard */,
-				EC5CC8852A49A458009D796D /* Assets.xcassets */,
-				EC5CC8872A49A458009D796D /* LaunchScreen.storyboard */,
+				EC86BF3D2A4C5BB5006BE9C0 /* AudioPlayer.swift */,
+				EC5CC8802A49A457009D796D /* SongsController.swift */,
+				EC5CC8A92A49D769009D796D /* PlayerController.swift */,
+				EC5CC8A52A49B671009D796D /* SongCell.swift */,
+				EC5CC8A62A49B671009D796D /* SongCell.xib */,
+				EC5CC89D2A49AA6F009D796D /* SongProvider */,
+				EC5CC8A02A49AECE009D796D /* Resources */,
 				EC5CC88A2A49A458009D796D /* Info.plist */,
 			);
 			path = AudiosPlayer;
+			sourceTree = "<group>";
+		};
+		EC5CC8902A49A793009D796D /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CC8922A49A7ED009D796D /* Ed Sheeran feat. Stormzy - Take Me Back to London (feat. Stormzy).mp3 */,
+				EC5CC8942A49A7ED009D796D /* Imagine Dragons - Thunder.mp3 */,
+				EC5CC8912A49A7EC009D796D /* Linkin Park - What I've Done.mp3 */,
+				EC5CC8952A49A7ED009D796D /* Red Hot Chili Peppers - Dani California.mp3 */,
+				EC5CC8932A49A7ED009D796D /* The Weeknd - Is There Someone Else.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		EC5CC89D2A49AA6F009D796D /* SongProvider */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CC89B2A49AA66009D796D /* Song.swift */,
+				EC5CC89E2A49AC5A009D796D /* SongsProvider.swift */,
+			);
+			path = SongProvider;
+			sourceTree = "<group>";
+		};
+		EC5CC8A02A49AECE009D796D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CC8902A49A793009D796D /* Songs */,
+				EC5CC8852A49A458009D796D /* Assets.xcassets */,
+				EC5CC87C2A49A457009D796D /* AppDelegate.swift */,
+				EC5CC87E2A49A457009D796D /* SceneDelegate.swift */,
+				EC5CC8822A49A457009D796D /* Main.storyboard */,
+				EC5CC8872A49A458009D796D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +182,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5CC89A2A49A7ED009D796D /* Red Hot Chili Peppers - Dani California.mp3 in Resources */,
+				EC5CC8992A49A7ED009D796D /* Imagine Dragons - Thunder.mp3 in Resources */,
 				EC5CC8892A49A458009D796D /* LaunchScreen.storyboard in Resources */,
 				EC5CC8862A49A458009D796D /* Assets.xcassets in Resources */,
+				EC5CC8972A49A7ED009D796D /* Ed Sheeran feat. Stormzy - Take Me Back to London (feat. Stormzy).mp3 in Resources */,
+				EC5CC8A82A49B671009D796D /* SongCell.xib in Resources */,
+				EC5CC8962A49A7ED009D796D /* Linkin Park - What I've Done.mp3 in Resources */,
 				EC5CC8842A49A457009D796D /* Main.storyboard in Resources */,
+				EC5CC8982A49A7ED009D796D /* The Weeknd - Is There Someone Else.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5CC8812A49A457009D796D /* ViewController.swift in Sources */,
+				EC5CC89C2A49AA66009D796D /* Song.swift in Sources */,
+				EC5CC8812A49A457009D796D /* SongsController.swift in Sources */,
 				EC5CC87D2A49A457009D796D /* AppDelegate.swift in Sources */,
+				EC86BF3E2A4C5BB5006BE9C0 /* AudioPlayer.swift in Sources */,
 				EC5CC87F2A49A457009D796D /* SceneDelegate.swift in Sources */,
+				EC5CC8AA2A49D769009D796D /* PlayerController.swift in Sources */,
+				EC5CC8A72A49B671009D796D /* SongCell.swift in Sources */,
+				EC5CC89F2A49AC5A009D796D /* SongsProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +361,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +370,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dzhami.AudiosPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +392,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +401,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dzhami.AudiosPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
