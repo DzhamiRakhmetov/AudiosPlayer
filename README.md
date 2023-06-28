@@ -2,7 +2,7 @@
 
 AudiosPlayer - это приложение созданное в качестве тестового задания для компании Surf IT, на должность iOS/macOS разработчика.
 
-[Ссылка на задание](https://imdb-api.com/api#Top250Movies-header](https://drive.google.com/file/d/15MUVQ8Vt1gfjxWYrMpAjWNdYA-pU37Wa/view)https://drive.google.com/file/d/15MUVQ8Vt1gfjxWYrMpAjWNdYA-pU37Wa/view)
+[Ссылка на задание](https://drive.google.com/file/d/15MUVQ8Vt1gfjxWYrMpAjWNdYA-pU37Wa/view?pli=1)
 
 ## **Описание приложения**
 
