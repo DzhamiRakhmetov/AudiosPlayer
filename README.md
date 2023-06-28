@@ -2,6 +2,8 @@
 
 AudiosPlayer - это приложение созданное в качестве тестового задания для компании Surf IT, на должность iOS/macOS разработчика.
 
+![AppScreenshot1](https://github.com/DzhamiRakhmetov/AudiosPlayer/blob/main/AudiosPlayerScreenshots.png)
+
 [Ссылка на задание](https://drive.google.com/file/d/15MUVQ8Vt1gfjxWYrMpAjWNdYA-pU37Wa/view?pli=1)
 
 ## **Описание приложения**
